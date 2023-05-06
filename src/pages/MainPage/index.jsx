@@ -8,7 +8,7 @@ export const MainPage = () => {
     <div className={styles.root}>
         <div className={styles.head}>
           <h1 className={styles.title}>Здравствуйте</h1>
-          <p className={styles.suptitle}>сегодня вы узнаете просплавы, как их получают, где используюи и много всего интеремного</p>
+          <p className={styles.suptitle}>сегодня вы узнаете про сплавы, как их получают, где используют и много всего интересного</p>
         </div>
         <div className={styles.buttons}>
 
