@@ -1,0 +1,36 @@
+
+.modal{
+    position: fixed;
+    display: flex;
+
+    .shadow{
+        opacity: 0.9;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background-color: black;
+        top: 0;
+        left: 0;
+        user-select: none;
+        overflow: hidden;
+    }
+
+    .content {
+        width: 100vw;
+        background: white;
+        position: sticky;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin: 25px 20%;
+        justify-content: center;
+        left: 5%;
+        right: 5%;  
+        
+        img {
+            width: 90%;
+            height: 300px;
+            margin: 10px;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+
+.root{
+    background-color: #d9d9d9;
+    position: relative;
+
+    button{
+      display: flex;    
+       
+      margin: 20px 20px 20px 39px;
+   }
+
+    h3 {
+        padding: 20px 0 10px 30px;
+
+        display: flex;
+        justify-content: flex-start;
+
+        text-align: left;
+
+        color: #00474f;
+    }   
+
+    h1{
+      padding: 20px 0 10px 30px;
+
+        display: flex;
+        justify-content: flex-start;
+
+        text-align: left;
+    }
+
+    p {  
+      padding: 0 0 20px 30px;
+
+      text-align: left;
+    }
+
+    div{
+      p {  
+        padding: 0 0 20px 30px;
+  
+        text-align: left;
+      }
+    }
+
+    .btn {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+}

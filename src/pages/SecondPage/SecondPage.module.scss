@@ -1,0 +1,45 @@
+.root{
+    background-color: #d9d9d9;
+
+    button{
+       display: flex;    
+        
+       margin: 50px;
+       
+    }
+
+    h3 {
+        padding: 20px 0 10px 30px;
+
+        display: flex;
+        justify-content: flex-start;
+
+        text-align: left;
+
+        color: #00474f;
+    }   
+
+    h1{
+      padding: 20px 0 10px 30px;
+
+        display: flex;
+        justify-content: flex-start;
+
+        text-align: left;
+    }
+
+    p {  
+      padding: 0 0 20px 30px;
+
+      text-align: left;
+    }
+
+    div{
+      p {  
+        padding: 0 0 20px 30px;
+  
+        text-align: left;
+      }
+    }
+
+}

@@ -1,0 +1,36 @@
+.root{
+    background-color: #d9d9d9;
+    height: 90vh;
+    padding: 30px;
+    .head{
+        .title{
+            display: flex;
+            justify-content: flex-start;
+
+            font-size: 100px;
+
+            margin-bottom: 30px;
+        }
+        .suptitle{
+            display: flex;
+            justify-content: flex-start;
+
+            font-size: 40px;
+
+            text-align: left;
+        }
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        width: 400px;
+
+        position: absolute; 
+        bottom: 150px;
+        right: 5%;
+        
+    }
+}
+
